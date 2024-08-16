@@ -1,0 +1,63 @@
+.ayaat{
+    width: 50%;
+    border: 4px solid green;
+    margin: 30px auto;
+    text-align: center;
+    border-radius: 20px;
+}
+.ayaats{
+    width: 100%;
+}
+.quran-conect{
+    display: flex;
+    margin-bottom: 20px;
+}
+.ayaat{
+    height: 80vh;
+    overflow-y: scroll;
+    
+}
+.start{
+    text-align: center;
+}
+.start > *{
+    margin-bottom: 10px;
+}
+.start h2{
+    text-align: center;
+    font-size: 40px;
+    background-color: green;
+    color: #fff;
+    font-family: "Tajawal", system-ui;
+    font-weight: bold;
+    font-style: normal;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 40px;
+    margin-bottom: 10px;
+}
+.ayat{
+    width: 90%;
+    margin: 50px auto;
+}
+.audios{
+    text-align: center;
+}
+@media screen and (max-width:480px){
+    .start h2{
+        font-size: 25px;
+        width: 80%;
+    }
+    .ayaat{
+        width: 90%;
+    }
+}
+@media screen and (min-width:481px) and (max-width:768px){
+    .start h2{
+        font-size: 25px;
+        width: 80%;
+    }
+    .ayaat{
+        width: 90%;
+    }
+}

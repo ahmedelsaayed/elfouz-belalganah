@@ -1,0 +1,27 @@
+.hade{
+    border: 4px solid green;
+    border-radius: 60px;
+    padding: 10px 20px;
+    direction: rtl;
+    width: 90%;
+    margin: 30px auto;
+}
+.hadess{
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+.hadess h2{
+    font-size: 40px;
+    margin-top: 20px;
+    text-align: center;
+    color: green;
+    font-family: "Tajawal", system-ui;
+    font-weight: bold;
+    font-style: normal;
+}
+@media screen and (max-width:480px){
+    .hade{
+        width: 80%;
+    } 
+}
